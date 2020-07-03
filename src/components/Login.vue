@@ -23,7 +23,6 @@
                                             type="text"
                                             placeholder="Enter your username"
                                             required
-                                            clearable
                                             filled
                                             autocomplete="off"
                                             :rules="usernameRules"

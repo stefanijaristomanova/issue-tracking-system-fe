@@ -84,9 +84,7 @@
             if (currentObj.$route.params.id > 0) {
                 currentObj.editView = true;
                 API.get(currentObj.$route.params.id).then(function (response) {
-                    console.log('response ', response)
                     currentObj.issue = response;
-                    console.log('issue template', currentObj.issue.templateID)
                 })
 
             } else {
